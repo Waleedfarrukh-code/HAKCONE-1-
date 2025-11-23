@@ -1,4 +1,6 @@
 // Sample posts data
+let posts1 = JSON.parse(localStorage.getItem('posts')) || []
+
 const posts = [
     {
         id: 1,
@@ -2609,3 +2611,11 @@ document.getElementById("friendsTab").addEventListener("click", renderFriends);
 document.getElementById("groupsTab").addEventListener("click", renderGroups);
 document.getElementById("eventsTab").addEventListener("click", renderEvents);
 document.getElementById("settingsTab").addEventListener("click", renderSettings);
+
+
+
+
+// 
+
+
+
